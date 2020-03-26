@@ -12,25 +12,17 @@ export default () => (
         Uriel Eisen
       </a>
       ,{' '}
-      <a
-        className="text-indigo-600"
-        href="https://www.linkedin.com/in/andrew-eisen-193a536/"
-      >
+      <a href="https://www.linkedin.com/in/andrew-eisen-193a536/">
         Andrew Eisen
       </a>
-      ,{' '}
-      <a
-        className="text-indigo-600"
-        href="https://www.linkedin.com/in/vadimgordin/"
-      >
-        Vadim Gordin
-      </a>
-      , and{' '}
-      <a className="text-indigo-600" href="https://www.linkedin.com/in/callil/">
-        Callil Capuozzo
-      </a>{' '}
-      as part of the Open Face PPE Project in collaboration with the NYU
-      COVID-19 Task Force and many others.
+      , <a href="https://www.linkedin.com/in/vadimgordin/">Vadim Gordin</a>, and{' '}
+      <a href="https:///callil.com/">Callil Capuozzo</a> as part of the Open
+      Face PPE Project in collaboration with the NYU COVID-19 Task Force and
+      many others.
+    </p>
+    <p>
+      Instruction and Face Shield illustrations by{' '}
+      <a href="http://www.rachelciavarella.com/">Rachel Ciavarella</a>
     </p>
 
     <h1 className="mt-6 text-base font-semibold">

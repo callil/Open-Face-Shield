@@ -59,7 +59,7 @@ export default () => (
         <h1 className="mt-6 mb-4 text-2xl w-full">Photos</h1>
         <div className="flex justify-between">
           <span className="rounded-lg">
-            <img className="h-auto w-full max-w-xs mx-auto" src="visor.png" />
+            <img className="h-auto w-full max-w-xs mx-auto" src="bd.png" />
           </span>
           <span className="w-4 h-4 "></span>
 
@@ -67,12 +67,25 @@ export default () => (
             <img className="h-auto w-full max-w-xs mx-auto p4" src="use.png" />
           </span>
         </div>
+        <div className="flex mt-4 justify-between">
+          <span className="rounded-lg">
+            <img className="h-auto w-full max-w-xs mx-auto" src="raw.png" />
+          </span>
+          <span className="w-4 h-4 "></span>
+
+          <span className="rounded-lg">
+            <img
+              className="h-auto w-full max-w-xs mx-auto p4"
+              src="visor.png"
+            />
+          </span>
+        </div>
       </div>
 
       <h1 className="mt-6 text-2xl">Materials</h1>
 
       <BOM />
-      <p className="mt-2 max-w-3xl text-base leading-7 text-red-600 ">
+      <p className="mt-2 max-w-3xl text-base leading-7 ">
         We’re making ours from 0.01” PET sheet, but almost any clear flexible
         material should work (such as polycarbonate, PETA, PETG, vinyl, etc).
       </p>

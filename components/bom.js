@@ -13,7 +13,7 @@ export default function BOM() {
                   Description
                 </th>
                 <th className="border px-4 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
-                  Qty
+                  Size
                 </th>
                 <th className="border px-4 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-900 uppercase tracking-wider">
                   Notes
@@ -29,8 +29,8 @@ export default function BOM() {
                   Clear Plastic Face Shield
                 </td>
                 <td className=" border max-w-xs px-3 py-4  text-sm leading-5 text-gray-800">
-                  0.007" thick non-brittle clear material. PET or polycarbonate
-                  is good.
+                  0.007" to .01" thick non-brittle clear material. PET or
+                  polycarbonate is good.
                 </td>
                 <td className=" border px-3 py-4  text-sm leading-5 text-gray-800">
                   12.5" x 10.25"
@@ -89,6 +89,44 @@ export default function BOM() {
                   >
                     JO-ANN STORES, LLC
                   </a>
+                </td>
+              </tr>
+
+              <tr>
+                <td
+                  colspan="5"
+                  className=" p-2 pt-4 w-full uppercase text-xs text-gray-900"
+                >
+                  Optional
+                </td>
+              </tr>
+
+              <tr className="bg-white align-top">
+                <td className=" border max-w-xs px-3 py-4 text-sm leading-5 font-medium text-gray-900">
+                  Foam {'    '}
+                </td>
+                <td className=" border max-w-xs px-3 py-4  text-sm leading-5 text-gray-800">
+                  1"x1/2" strip
+                </td>
+                <td className=" border px-3 py-4  text-sm leading-5 text-gray-800">
+                  10"
+                </td>
+                <td className="border px-3 py-4 text-sm leading-5 text-gray-800">
+                  Cut to length.
+                </td>
+                <td className="border px-3 py-4  text-sm leading-5 text-gray-800">
+                  <a
+                    href="https://www.mcmaster.com/93275k56"
+                    className="text-indigo-600 break-all  hover:text-indigo-900 focus:outline-none focus:underline"
+                  >
+                    McMaster Carr
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="5" className="p-2 text-xs text-red-500">
+                  Warning - adding foam makes the shield much more difficult to
+                  clean.
                 </td>
               </tr>
             </tbody>

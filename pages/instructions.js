@@ -54,17 +54,6 @@ export default () => (
       material should work (such as polycarbonate, PETA, PETG, vinyl, etc).
     </p>
 
-    <h1 className="mt-6 text-2xl">Design Overview</h1>
-    <iframe
-      width="560"
-      height="315"
-      src="https://drive.google.com/file/d/1LFEJVGUpZe_2h0QLpM1z9_-vevJmP9nS/view"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-      className="mt-6 w-full h-auto"
-    ></iframe>
-
     <h1 className="mt-6 text-2xl" id="assemble">
       Assembly Video
     </h1>
@@ -72,10 +61,31 @@ export default () => (
       className="mt-6 w-full  "
       width="560"
       height="315"
-      src="https://www.youtube.com/embed/TCqxyl7dJ1U"
+      src="https://www.youtube.com/embed/haZ7mYbM1eA"
       frameborder="0"
       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
     ></iframe>
+
+    <h1 className="mt-6 mb-4 text-2xl w-full">Photos</h1>
+
+    <div className="flex mt-4 justify-between">
+      <span className="rounded-lg">
+        <img className="h-auto w-full max-w-xs mx-auto" src="raw.png" />
+      </span>
+      <span className="w-4 h-4 "></span>
+      <span className="rounded-lg">
+        <img className="h-auto w-full max-w-xs mx-auto p4" src="visor.png" />
+      </span>
+    </div>
+    <div className="flex mt-4 justify-between">
+      <span className="rounded-lg">
+        <img className="h-auto w-full max-w-xs mx-auto" src="band.png" />
+      </span>
+      <span className="w-4 h-4 "></span>
+      <span className="rounded-lg">
+        <img className="h-auto w-full max-w-xs mx-auto p4" src="foam.png" />
+      </span>
+    </div>
   </div>
 )

@@ -16,9 +16,9 @@ export default function Nav() {
           <li className="flex">
             <Link href="/">
               <a className="no-underline flex w-full text-gray-900 hover:text-gray-700">
-                <span className="flex hidden md:block">
-                  {/* <img src="NYU_torch.svg" className="mr-2 w-6" /> */}
-                  OpenFacePPE
+                <span className="md:flex flex-nowrap hidden">
+                  <img src="NYU_torch.svg" className="mr-2 w-6" />
+                  <span>OpenFacePPE</span>
                 </span>
                 <span className="w-2 h-2 "></span>
                 <span className=" hidden md:block text-gray-600">/ </span>
