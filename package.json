@@ -1,6 +1,10 @@
 {
-  "name": "with-tailwindcss",
+  "name": "open-face-website",
   "version": "1.0.0",
+  "license": {
+    "key": "Creative Commons BY-NC-SA License 3.0",
+    "value": 2
+  },
   "scripts": {
     "dev": "next",
     "build": "next build",
