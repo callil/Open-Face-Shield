@@ -16,18 +16,18 @@ export default function Nav() {
           <li className="flex">
             <Link href="/">
               <a className="no-underline flex w-full text-gray-900 hover:text-gray-700">
-                <span className="flex">
-                  <img src="NYU_torch.svg" className="mr-2 w-6" />
+                <span className="flex hidden md:block">
+                  {/* <img src="NYU_torch.svg" className="mr-2 w-6" /> */}
                   OpenFacePPE
                 </span>
                 <span className="w-2 h-2 "></span>
-                <span className="text-gray-600">/ </span>
+                <span className=" hidden md:block text-gray-600">/ </span>
                 <span className="w-2 h-2 "></span>
                 <span className="text-gray-600"> Face Shield V1</span>
               </a>
             </Link>
           </li>
-          <ul className="flex justify-start items-center mt-4 md:mt-0 text-2xl w-full md:w-auto flex-wrap">
+          <ul className="flex justify-center items-center text-2xl md:w-auto flex-wrap">
             {links.map(({ href, label }) => (
               <li key={`${href}${label}`} className="mr-4 md:ml-4">
                 <a

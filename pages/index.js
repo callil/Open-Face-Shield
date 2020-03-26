@@ -22,11 +22,10 @@ export default () => (
     </div>
     <div>
       <p className="mt-2 max-w-3xl text-lg leading-7 ">
-        The Open Source Face Shield is a low cost, easy to fabricate medical
-        face shield designed to be quickly made using almost any flat material
-        fabrication equipment (laser cutters, rule dies, drag knife, CNC punch,
-        etc.), or even scissors and an office hole punch from any clear flexible
-        material.
+        The Open Source Face Shield is a low cost, medical face shield designed
+        to be quickly made using almost any flat material fabrication equipment
+        (laser cutters, rule dies, drag knife, CNC punch, etc.), or even
+        scissors and an office hole punch from any clear flexible material.
       </p>
       <p className="mt-2 max-w-3xl text-lg leading-7">
         It requires no hardware or 3D printed parts, just two pieces of flexible
@@ -38,7 +37,7 @@ export default () => (
           <div className="mt-8 flex flex-wrap justify-between">
             <div className="inline-flex w-full flex-auto  md:w-auto rounded-md shadow">
               <Link href="/request">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-500 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out w-full">
+                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out w-full">
                   I need these for my medical facility.
                 </a>
               </Link>
@@ -46,7 +45,7 @@ export default () => (
             <span className="w-4 h-4 md:h-0 md:w-0"></span>
             <div className="md:ml-3 inline-flex flex-auto w-full md:w-auto ">
               <Link href="/instructions">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:text-white hover:bg-indigo-50 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out w-full">
+                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:text-white hover:bg-indigo-600 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out w-full">
                   I want to make these.
                 </a>
               </Link>
@@ -65,16 +64,9 @@ export default () => (
           <span className="w-4 h-4 "></span>
 
           <span className="rounded-lg">
-            <img className="h-auto w-full max-w-xs mx-auto p4" src="band.png" />
+            <img className="h-auto w-full max-w-xs mx-auto p4" src="use.png" />
           </span>
         </div>
-      </div>
-
-      <div>
-        <p className="mt-4 max-w-3xl text-base leading-7 font-semibold p-4 bg-gray-100">
-          Any custom cardboard manufacturer in the world can now quickly and
-          cheaply make face shields for their local Emergency Department.
-        </p>
       </div>
 
       <h1 className="mt-6 text-2xl">Materials</h1>
