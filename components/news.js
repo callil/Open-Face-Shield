@@ -11,7 +11,7 @@ export default function News() {
         Members of our core team are also tooling up to produce these for NYC
         Hospitals.{' '}
         <span className=" font-semibold">
-          We anticipate being able to supply 100k shields per week starting 3/30
+          We anticipate being able to supply 50k shields per week starting 3/30
           with the ability to ramp up for more capacity if necessary.{' '}
         </span>
       </p>

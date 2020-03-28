@@ -5,10 +5,7 @@ export default () => (
   <div className="flex flex-col pt-12">
     <p className=" max-w-3xl text-base leading-7">
       The Open Source Face Shield was designed by{' '}
-      <a
-        className="text-indigo-600"
-        href="https://www.linkedin.com/in/uriel-eisen-9724b390/"
-      >
+      <a className="" href="https://www.linkedin.com/in/uriel-eisen-9724b390/">
         Uriel Eisen
       </a>
       ,{' '}
@@ -20,9 +17,14 @@ export default () => (
       Face PPE Project in collaboration with the NYU COVID-19 Task Force and
       many others.
     </p>
-    <p>
+    <p className="mt-1">
       Instruction and Face Shield illustrations by{' '}
       <a href="http://www.rachelciavarella.com/">Rachel Ciavarella</a>
+    </p>
+    <p className="mt-1">
+      Special thanks to Joseph Zoleta and the
+      <a href="https://black6project.org/"> Black 6 project team</a> for
+      distributing shields and producing the assembly video.
     </p>
 
     <h1 className="mt-6 text-base font-semibold">

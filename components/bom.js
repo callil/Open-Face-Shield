@@ -94,7 +94,7 @@ export default function BOM() {
 
               <tr>
                 <td
-                  colspan="5"
+                  colSpan="5"
                   className=" p-2 pt-4 w-full uppercase text-xs text-gray-900"
                 >
                   Optional
@@ -124,7 +124,7 @@ export default function BOM() {
                 </td>
               </tr>
               <tr>
-                <td colspan="5" className="p-2 text-xs text-red-500">
+                <td colSpan="5" className="p-2 text-xs text-red-500">
                   Warning - adding foam makes the shield much more difficult to
                   clean.
                 </td>

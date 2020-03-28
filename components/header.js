@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { GA_TRACKING_ID } from './gtag'
 
 export default function Header() {
   return (
@@ -37,24 +38,21 @@ export default function Header() {
         content="A low cost, easy to fabricate medical face shield designed to be quickly made using almost any flat material fabrication equipment (laser cutters, rule dies, drag knife, CNC punch, etc.), or even scissors and an office hole punch from any clear flexible material."
       />
       <meta property="twitter:image" content="preview_card.png" />
-
-      <meta name="HandheldFriendly" content="True" />
-      <meta name="MSThemeCompatible" content="no" />
-      <meta name="apple-mobile-web-app-capable" content="yes" />
-      <meta
-        name="apple-mobile-web-app-status-bar-style"
-        content="translucent black"
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
       />
-      <meta name="msapplication-navbutton-color" content="translucent black" />
-      <meta name="mssmarttagspreventparsing" content="true" />
-      <meta name="theme-color" content="#b1cff4" />
-      <meta
-        http-equiv="Page-Enter"
-        content="RevealTrans(Duration=1.0,Transition=1)"
-      />
-      <meta
-        http-equiv="Page-Exit"
-        content="RevealTrans(Duration=1.0,Transition=1)"
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_TRACKING_ID}', {
+              page_path: window.location.pathname,
+            });
+          `
+        }}
       />
     </Head>
   )
