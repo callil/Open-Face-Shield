@@ -30,11 +30,8 @@ export default () => (
 
       <p className="mt-6 max-w-3xl text-lg leading-7">
         Contact{' '}
-        <a
-          className="text-indigo-600"
-          href="mailto:OpenFacePPEproject@gmail.com"
-        >
-          OpenFacePPEproject@gmail.com
+        <a className="text-indigo-600" href="mailto:shields@responseppe.com">
+          shields@responseppe.com
         </a>{' '}
         for large order procurement.
       </p>

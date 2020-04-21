@@ -34,8 +34,8 @@ export default () => (
 
       <div className="bg-white">
         <div className="max-w-screen-xl mx-auto text-center">
-          <div className="mt-8 flex flex-wrap justify-between">
-            <div className="inline-flex w-full flex-auto  md:w-auto rounded-md shadow">
+          <div className="mt-8 flex flex-wrap flex-no-wrap justify-between">
+            <div className="inline-flex flex-auto  md:w-auto rounded-md shadow">
               <Link href="/request">
                 <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-red-600 hover:bg-red-700 focus:outline-none focus:shadow-outline transition duration-150 ease-in-out w-full">
                   I need these for my medical facility.
@@ -43,7 +43,7 @@ export default () => (
               </Link>
             </div>
             <span className="w-4 h-4 md:h-0 md:w-0"></span>
-            <div className="md:ml-3 inline-flex flex-auto w-full md:w-auto ">
+            <div className="md:ml-3 inline-flex flex-auto md:w-auto ">
               <Link href="/instructions">
                 <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-500 hover:text-white hover:bg-indigo-600 focus:outline-none focus:shadow-outline focus:border-indigo-300 transition duration-150 ease-in-out w-full">
                   I want to make these.

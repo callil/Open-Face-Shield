@@ -5,7 +5,7 @@ const links = [
   // { href: '/faq', label: 'FAQ' },
   { href: '/about', label: 'About' },
   { href: '/request', label: 'Request' },
-  { href: '/instructions', label: 'Make' }
+  { href: '/instructions', label: 'Make' },
 ]
 
 export default function Nav() {
