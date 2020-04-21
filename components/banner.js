@@ -6,15 +6,14 @@ export default function Banner() {
           <p className="font-medium text-white">
             <span className="hidden md:inline">COVID-19 ALERT:</span>
             <span className="">
-              Due to severe medical supply shortages we are seeking partners to
-              manufacture at scale ASAP.
+              Shields available for mediate delivery. Please reach out to
             </span>
             <span className="block sm:m-2 sm:inline-block mt-2 md:m-0">
               <a
-                href="mailto:OpenFacePPEproject@gmail.com"
+                href="mailto:shields@responseppe.com"
                 className="sm:p-2 text-white font-bold underline"
               >
-                Get in touch &rarr;
+                shields@responseppe.com
               </a>
             </span>
           </p>
